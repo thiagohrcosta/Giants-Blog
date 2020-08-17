@@ -14,7 +14,10 @@ Project **BLOG** developed during the BootCamp Web Developer created by **[THE A
 - Lodash
 
 ## Mobile Version
-![mobile1](https://github.com/thiagohrcosta/Giants-Blog/blob/master/files/giantsMobile1.png?raw=true)  ![mobile2](https://github.com/thiagohrcosta/Giants-Blog/blob/master/files/giantsMobile2.png?raw=true) 
+![mobile1](https://github.com/thiagohrcosta/Giants-Blog/blob/master/files/giantsMobile1.png?raw=true)
+
+
+  ![mobile2](https://github.com/thiagohrcosta/Giants-Blog/blob/master/files/giantsMobile2.png?raw=true) 
 
 ## Add content function
 To this project was created a option to allow user add new content to the blog. Each content will open in own page when click on "Read More" option.
