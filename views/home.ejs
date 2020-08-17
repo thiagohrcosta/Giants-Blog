@@ -1,0 +1,50 @@
+<%- include('./partials/header'); -%>
+
+
+  <div class="div-mainImg">
+    <img class="mainImage" src="https://www.oatesflag.com/wp-content/uploads/2017/09/oates-flag-new-york-giants-flag-banner.jpg" alt="" srcset="">
+    <hr>
+  </div>
+
+
+<% posts.forEach(function(post){ %>
+  <div class="titleStyle">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-xs-12 col-md-8">
+          <h1 class=""><%= post.title %></h1> 
+        </div>
+
+      </div>
+      
+    </div>
+    
+  </div>
+  
+  
+  <div class="">
+    
+    <div class="container">
+      <div class="profilePosition">
+        <img class="profilePicture" src="<%= post.profileURL %>"/>       
+        <p>Posted by: <%= post.name %> </p>
+      </div>
+      
+      <hr class="divisionalLine">
+    
+    </div>
+
+  </div>
+  
+  <img class="postImage" src="<%= post.imageDisplay %>" alt="">
+  <p class="postContentSpace" >
+    <%= post.content.substring(0,500) + "..." %>
+    <a href="/posts/<%= post.title %>">Read More</a>
+  </p>
+
+  <% console.log(post); %>
+<% }) %>
+
+
+<%- include('./partials/footer'); -%>

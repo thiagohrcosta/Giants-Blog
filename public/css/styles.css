@@ -1,0 +1,117 @@
+body{
+    text-align: justify;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-default .navbar-brand{
+    color: white;
+}
+
+a:after {    
+    color: white;
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+.navbar-default{
+    background-color: #192E6C;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: white !important;
+}
+
+
+
+.postImage{
+    width: 100%;
+}
+
+.mainImage{
+    margin-top: 5%;
+    width: 100%;
+}
+
+.profilePosition{
+    margin-top: 2%;
+    text-align: center;
+    width: 100%;
+
+}
+
+.profilePicture{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+.titleStyle{
+    padding: 10px;
+    background-color: #f3f3f3;
+}
+
+.divisionalLine{
+
+    width: 400px;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #192E6C;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+    color: #fff;
+}
+
+.composeContent{
+    width: 100%;
+}
+
+.postContentSpace{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        font-size: 20px;
+        text-align: justify;
+    }
+}
